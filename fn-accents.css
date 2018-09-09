@@ -1,0 +1,96 @@
+/* ==UserStyle==
+@name        Furry Network Accents
+@namespace   XDelta
+@version     1.1
+@homepageURL https://github.com/XDelta/StylusUserCSS
+@license     CC-BY-SA-4.0
+@author      XDelta
+@advanced color base-color "Base color scheme" #3DCC21
+==/UserStyle== */
+@-moz-document domain("furrynetwork.com") {
+
+:root {
+	--color: #3DCC21;
+	/*may use as a fallback*/
+}
+
+* {cursor: url('http://devdelta.ddns.net/assets/images/csr/csr_paw_green.png'), auto !important;}
+
+li > div > div > a .button__children {
+	color: #FFAFAF;
+}
+svg > path {
+	fill: #3DCC21;
+}
+.typography--md a {
+	color:#EEE;
+}
+.typography--md a:hover {
+	color:#070;
+}
+.t--gray--300, .t--primary, .t--secondary {
+	color: #3DCC21!important;
+}
+.app-header {
+	border-bottom:1px solid #3DCC21;
+}
+.submission-focus__actions__action.submission-focus__actions__action--action--social, .tag--editable.tag--color-theme--primary, .thumbnail__badges__item--adult-content {
+	background-color:#444!important;
+}
+.button--action--create > .button__children, .tag--color-theme--primary:not(.tag--editable):hover {
+	color:#FFF;
+}
+.button:hover, .button:focus {
+	background-color:rgba(61,204,33, .25) !important;
+}
+.button, .button--bordered, .button:hover, .button:focus {
+	color:#3DCC21;
+	background-color:rgba(61,204,33, .25)!important;
+	border-color:#3DCC21;
+}
+.page--promo__hero-content__button {
+	background-color:rgba(61,204,33, .25)!important;
+}
+body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography--md p, .submission-aside__comments__no-comments, .button__children, .post-form__markdown, .group-list__link--active, .group-list__link--current, .account-nav__link, .tab__link, .character-card__name, .comment-entry__display-name {
+	color:/*[[base-color]]*/;
+}
+.l--browse__collections__item-link--current:before, .main-nav__menu-item__link:before, .account-nav__link:before, .tab__link:before {
+	background:#3DCC21;
+}
+.user-nav__link--create, .page--login__form__button-container button {
+	background:#333;
+	background-color:#333;
+	transition: color .25s ease,background .25s ease;
+}
+.user-nav__link--create:hover {
+	background:#666;
+	background-color:#666;
+	transition: color .25s ease,background .25s ease;
+}
+.badge--primary {
+	background: rgba(61,204,33, .5);
+}
+.filter-list__item__badge {
+	color:#3DCC21;
+}
+.filter-list--material-tabs .filter-list__item--active .filter-list__link {
+	color: #3DCC21!important;
+}
+.filter-list--material-tabs .filter-list__link:before {
+	background:#3DCC21;
+}
+.badge--gray--400 {
+	  background:#696969;
+	  color:#3DCC21;
+	  text-shadow:none;
+}
+.explicit-content-icon {
+	  background:rgba(221, 44, 0, 0.5);
+}
+.adult-content-icon {
+	background:rgba(253, 216, 53, 0.5);
+}
+.floating-action__button--color-theme--primary:before {
+	background: #696969;
+}
+}
