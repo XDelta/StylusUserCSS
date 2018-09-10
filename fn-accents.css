@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Furry Network Accents
 @namespace   XDelta
-@version     1.0.5
+@version     1.0.6
 @homepageURL https://github.com/XDelta/StylusUserCSS
 @license     CC-BY-SA-4.0
 @author      XDelta
@@ -30,9 +30,6 @@ li > div > div > a .button__children {
 svg > path {
 	fill: var(--primary);
 }
-.typography--md a {
-	color: var(--text);
-}
 .typography--md a:hover {
 	color: var(--secondary);
 }
@@ -42,7 +39,7 @@ svg > path {
 .submission-focus__actions__action.submission-focus__actions__action--action--social, .tag--editable.tag--color-theme--primary, .thumbnail__badges__item--adult-content {
 	background-color: var(--bg)!important;
 }
-.button--action--create > .button__children, .tag--color-theme--primary:not(.tag--editable):hover {
+.button--action--create > .button__children, .tag--color-theme--primary:not(.tag--editable):hover, .gallery-sort__link, .typography--md a, .main-nav__menu-item__link, .thumbnail__figure {
 	color: var(--text);
 }
 .button:hover, .button:focus {
@@ -75,7 +72,7 @@ body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography-
 .badge--primary {
 	background: var(--primary25);
 }
-.filter-list__item__badge, .main-nav__menu-item__link--current, .gallery-sort__link--current {
+.filter-list__item__badge, .main-nav__menu-item__link--current, .gallery-sort__link--current, .main-nav__menu-item__link:hover, .gallery-sort__link:hover {
 	color: var(--primary);
 }
 .filter-list--material-tabs .filter-list__item--active .filter-list__link, .t--gray--300, .t--primary, .t--secondary {
@@ -98,6 +95,5 @@ body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography-
 .floating-action__button--color-theme--primary:before {
 	background: var(--bg6);
 }
-
 
 } /*end domain*/
