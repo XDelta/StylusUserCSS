@@ -1,13 +1,13 @@
 /* ==UserStyle==
 @name        Furry Network Accents
 @namespace   XDelta
-@version     1.0.1
+@version     1.0.5
 @homepageURL https://github.com/XDelta/StylusUserCSS
 @updateURL   https://raw.githubusercontent.com/XDelta/StylusUserCSS/master/fn-accents.user.css
 @license     CC-BY-SA-4.0
 @author      XDelta
 @advanced color primary "Primary color" #3DCC21
-@advanced color primary25 "Primary A25%" #3DCC2144
+@advanced color primary25 "Primary A25%" #3DCC2140
 @advanced color secondary "Secondary color" #007700
 @advanced color adult "Adult tag color" rgba(253, 216, 53, 0.5)
 @advanced color text "Text Color" #EEE
@@ -25,18 +25,6 @@
 	--bg6: #666;
 	--red: #FFAFAF;
 	--darkred: #DD2C0088;
-/*
-	--primary: #3DCC21;
-	--primary25: #3DCC2144;
-	--secondary: #070;
-	--adult: rgba(253, 216, 53, 0.5);
-	--text: #EEE ;
-	--bg3: #333;
-	--bg4: #444;
-	--bg6: #666;
-	--red: #FFAFAF;
-	--darkred: #DD2C0088;
-*/
 }
 
 /* * {cursor: url('http://devdelta.ddns.net/assets/images/csr/csr_paw_green.png'), auto !important;} */
@@ -52,9 +40,6 @@ svg > path {
 }
 .typography--md a:hover {
 	color: var(--secondary);
-}
-.t--gray--300, .t--primary, .t--secondary {
-	color: var(--primary)!important;
 }
 .app-header {
 	border-bottom:1px solid var(--primary);
@@ -95,22 +80,22 @@ body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography-
 .badge--primary {
 	background: var(--primary25);
 }
-.filter-list__item__badge {
+.filter-list__item__badge, .main-nav__menu-item__link--current, .gallery-sort__link--current {
 	color: var(--primary);
 }
-.filter-list--material-tabs .filter-list__item--active .filter-list__link {
+.filter-list--material-tabs .filter-list__item--active .filter-list__link, .t--gray--300, .t--primary, .t--secondary {
 	color: var(--primary)!important;
 }
 .filter-list--material-tabs .filter-list__link:before {
 	background:var(--primary);
 }
 .badge--gray--400 {
-	  background: var(--bg6);
-	  color: var(--primary);
-	  text-shadow:none;
+	background: var(--bg6);
+	color: var(--primary);
+	text-shadow:none;
 }
 .explicit-content-icon {
-	  background: var(--darkred);
+	background: var(--darkred);
 }
 .adult-content-icon {
 	background: var(--adult);
@@ -118,4 +103,6 @@ body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography-
 .floating-action__button--color-theme--primary:before {
 	background: var(--bg6);
 }
-}
+
+
+} /*end domain*/
