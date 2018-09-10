@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Furry Network Accents
 @namespace   XDelta
-@version     1.0.7
+@version     1.0.8
 @homepageURL https://github.com/XDelta/StylusUserCSS
 @updateURL   https://raw.githubusercontent.com/XDelta/StylusUserCSS/master/fn-accents.user.css
 @license     CC-BY-SA-4.0
@@ -20,12 +20,12 @@
 	--primary25: /*[[primary25]]*/;
 	--secondary: /*[[secondary]]*/;
 	--adult: /*[[adult]]*/;
-	--text: /*[[text]]*/ ;
+	--text: /*[[text]]*/;
 	--bg3: #333;
 	--bg4: #444;
 	--bg6: #666;
 	--red: #FFAFAF;
-	--explicit: #DD2C0088;
+	--explicit: /*[[explicit]]*/;
 }
 
 /* * {cursor: url('http://devdelta.ddns.net/assets/images/csr/csr_paw_green.png'), auto !important;} */
