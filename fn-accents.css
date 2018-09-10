@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Furry Network Accents
 @namespace   XDelta
-@version     1.0.6
+@version     1.0.7
 @homepageURL https://github.com/XDelta/StylusUserCSS
 @license     CC-BY-SA-4.0
 @author      XDelta
@@ -12,14 +12,14 @@
 :root {
 	--primary: #3DCC21;
 	--primary25: #3DCC2144;
-	--secondary: #070;
-	--adult: rgba(253, 216, 53, 0.5);
-	--text: #EEE ;
+	--secondary: #007700;
+	--adult: #fdd83540;
+	--text: #EEE;
 	--bg3: #333;
 	--bg4: #444;
 	--bg6: #666;
 	--red: #FFAFAF;
-	--darkred: #DD2C0088;
+	--explicit: #DD2C0088;
 }
 
 /* * {cursor: url('http://devdelta.ddns.net/assets/images/csr/csr_paw_green.png'), auto !important;} */
@@ -87,7 +87,7 @@ body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography-
 	text-shadow:none;
 }
 .explicit-content-icon {
-	background: var(--darkred);
+	background: var(--explicit);
 }
 .adult-content-icon {
 	background: var(--adult);
