@@ -22,8 +22,6 @@
 	--explicit: #DD2C0088;
 }
 
-/* * {cursor: url('http://devdelta.ddns.net/assets/images/csr/csr_paw_green.png'), auto !important;} */
-
 li > div > div > a .button__children {
 	color: var(--red);
 }
@@ -96,4 +94,4 @@ body, .a, .a:hover, .tag--color-theme--primary:not(.tag--editable), .typography-
 	background: var(--bg6);
 }
 
-} /*end domain*/
+}
