@@ -1,0 +1,41 @@
+/* ==UserStyle==
+@name			Thingiverse Dark
+@namespace		XDelta
+@version		1.0.0
+@homepageURL	https://github.com/XDelta/StylusUserCSS
+@updateURL		https://raw.githubusercontent.com/XDelta/StylusUserCSS/master/thingiverse-dark.user.css
+@license		CC-BY-SA-4.0
+@author			XDelta
+
+==/UserStyle== */
+
+@-moz-document domain("thingiverse.com") {
+	body, p {
+		color: #eee !important;
+	}
+	body, .site-footer {
+		background-color: #181818;
+		background-image: none;
+	}
+
+	.ThingPage__gallery--SnBAG, .SidebarMenu__sidebarMenu--3uBjd, .MetricButton__tabButton--2rvo1, .WidgetContainer__widget--2Zkwj, .ThingPage__mainColumn--25bWI, .ThingCardHeader__headerContainer--3vy1c, .ThingCardActions__leftActionsContainer--2F10n, .ThingCardActions__rightActionsContainer--O1YxM, .SignUp__formSection--3v34W {
+
+		background-color: #202020;
+	}
+
+	.ScrollUpButton__button--1ZLLm, .dashboard_button, .user-wide, .Sort__sortContent--2eBIa, .CategorySort__contentWrapper--3mS-s, .FilterBySort__dropdownContent--DPOfH {
+		background-color: #303030;
+	}
+	.FilterBySort__dropdownButton--BxDpW, .FilterBySort__dropdownTitle--1O6PJ, .CategorySort__dropdownButton--gpHIi, .CategorySort__dropdownTitle--XX-Wh, .Sort__dropdownButton--1myG8, .Sort__titleDropdown--1_LTb {
+		color: #ccc;
+		background-color: #363636;
+	}
+
+	.SideMenuItem__textWrapper--11bnt, .MetricButton__metric--FqxBi, .ThingPage__modelName--3CMsV, .ThingPage__blockTitle--3ZdLu, .ThingCardHeader__cardNameWrapper--3xgAZ, .CardActionItem__textWrapper--2wTM-, .dashboard_button, .CategoryItem__dataWrapper--1p2Cl span {
+		color: #eee !important;
+	}
+
+	.MetricButton__tabTitle--2Xau7, .ThingPage__createdBy--1fVAy, .Contents__widgetTitle--2kuRB, .Tags__blockTitle--1yRzX, .License__licenseHeader--1fsYN, .ThingPage__contentTitle--1sg_6, .basic-page h3, .basic-page h4, .FilterBySort__checkboxLabel--1yj5Q, .CategoryItem__dataWrapper--1p2Cl span {
+		color: #ccc;
+	}
+}
