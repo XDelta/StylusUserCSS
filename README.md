@@ -14,6 +14,11 @@ Install [Stylus](https://add0n.com/stylus.html) for either [Firefox](https://add
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/fn-accents.user.css) with automatic updates.*<br>
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/fn-accents.css) for manual customization.<br>
 
+### [Thingiverse Dark]
+![](./screenshots/Thingiverse_dark.png)
+[Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/thingiverse-dark.user.css) with automatic updates.*<br>
+[Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/thingiverse-dark.css) for manual customization.<br>
+
 ### [Mailgun Dark]
 ![](./screenshots/MailGun_Dark_Green.png)
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/mailgun-dark.user.css) with automatic updates.*<br>
