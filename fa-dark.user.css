@@ -1,0 +1,130 @@
+/* ==UserStyle==
+@name        Fur Affinity Dark
+@namespace   XDelta
+@version     4.0.0
+@homepageURL https://github.com/XDelta/StylusUserCSS
+@updateURL   https://raw.githubusercontent.com/XDelta/StylusUserCSS/master/fa-dark.user.css
+@license     CC-BY-SA-4.0
+@author      XDelta
+@advanced color primary "Primary text color" #3DCC21
+@advanced color text "Text Color" #ccc
+@advanced color bg0 "Background color" #050505
+@advanced color bg1 "Secondary background color" #111
+@advanced color topnav "Top navigation bar" #181818
+
+==/UserStyle== */
+
+@-moz-document domain("furaffinity.net") {
+	:root {
+		--primary: /*[[primary]]*/;
+		--primary25: /*[[primary]]*/40;
+		--text: /*[[text]]*/;
+		--bg0: /*[[bg0]]*/;
+		--bg1: /*[[bg1]]*/;
+		--topnav: /*[[topnav]]*/dd;
+		/*HACK: Stylus doesn't support hex with an alpha in its color picker, adding the intended alpha works*/
+	}
+	
+	html, body { 
+		color: var(--text);
+	}
+	
+	/*Navigation*/    
+	#ddmenu {
+		display: block;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		background-color: var(--topnav);
+		position: fixed;
+	}
+
+	#ddmenu div.column h3 {
+		color: var(--primary) !important;
+	}
+	#ddmenu div.column h3:before {
+		content: "~";
+	}
+	#ddmenu div.column a {
+		color: var(--text);
+	}
+	#ddmenu div.column a:hover {
+		color: var(--primary);
+	}
+	form.logout-link button{ 
+		color: #900 !important;
+	}
+	form.logout-link button:hover{ 
+		color: #f00 !important;
+	}
+	
+	/*Profile Navigation*/
+	.user-nav ul li:hover {
+		background-color: var(--bg1);
+		padding-right: 6px;
+		padding-left: 6px;
+		padding-bottom: 12px;
+		border-bottom: 3px solid var(--primary);
+	}
+	.user-nav ul li {
+		padding-right: 6px;
+		padding-left: 6px;
+		padding-bottom: 10px !important;
+		border-bottom: 2px solid var(--primary25);
+	}
+	.userpage-flex-item.user-nav li {
+		padding-right: 6px;
+		padding-left: 6px;
+		padding-bottom: 12px;
+	}
+	
+	/*Body*/
+	body, div div, div.bbcode, td.ldot, td, .section-body, figcaption a {
+		background-color: var(--bg0) !important;
+		color: var(--primary) !important;
+	}
+	h1, h2, h3, h4, h5, h6, p {
+		color: #FFF !important;
+		border: none !important;
+		background: transparent !important
+	}
+	#footer {
+		background-color: transparent !important;
+	}
+	
+	/*Shouts*/
+	.shout-button button {
+		background-color: var(--bg0) !important;
+		color: var(--primary) !important;
+	}
+	.shout-button button:hover {
+		background-color: var(--bg1) !important;
+		color: var(--primary) !important;
+	}
+	.comment_container .header, .header div, .header .name > div {
+		background: var(--bg1) !important;
+		background-color: var(--bg1) !important;
+	}
+	.comment_container .header::after {
+		border-color: transparent var(--bg1);
+	}
+	
+	/*Submission Pages*/
+	.favorite-nav .button, .post-comment, .tags a, .submission-sidebar .buttons > div a, .button, .actions button, .section_controls button, .global_controls button {
+		background: var(--bg1) !important;
+		color: var(--text) !important;
+	}
+	.favorite-nav .button:hover, .post-comment:hover, .tags a:hover, .submission-sidebar .buttons div a:hover, .button:hover, .actions button:hover, .section_controls button:hover, .global_controls button:hover  {
+		background: var(--bg0) !important;
+		color: var(--primary) !important;
+	}
+	.actions button.nuke, .button.nuke, .remove_nuke, .section_controls .nuke {
+		border: 1px solid rgba(155,0,0,.7);
+		background-color: rgb(100, 25, 25) !important;
+	}
+	/*Journals*/
+	#pageid-messagecenter-other div#messagecenter-other ul.message-stream li.stream-notification {
+		background: #6441a57f
+	}
+ 
+}
