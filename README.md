@@ -1,8 +1,8 @@
 # StylusUserCSS
-Collection of my Stylish css files moved over to Stylus.
+Collection of my usercss files for Stylus.
 
 ## Requirements
-+ [Stylus](https://add0n.com/stylus.html) or similar css loader
++ [Stylus](https://add0n.com/stylus.html) or similar usercss extension
 + Decently up to date browser
 
 ## Installation
