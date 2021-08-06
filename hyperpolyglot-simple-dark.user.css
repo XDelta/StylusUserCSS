@@ -1,0 +1,29 @@
+/* ==UserStyle==
+@name        Hyperpolyglot Simple Dark
+@namespace   XDelta
+@version     0.1.0
+@homepageURL https://github.com/XDelta/StylusUserCSS
+@updateURL   https://raw.githubusercontent.com/XDelta/StylusUserCSS/master/hyperpolyglot-simple-dark.user.css
+@license     CC-BY-SA-4.0
+@author      XDelta
+==/UserStyle== */
+
+@-moz-document domain("hyperpolyglot.org") {
+    body, #header{
+        background-color: #111;
+        color: #eee;
+    }
+    a {
+        color: #ccc;
+    }
+    table.wiki-content-table th {
+        border: 0px solid #ccc;
+        background-color: #222;
+    }
+    .code {
+        background-color: #333;
+    }
+    tt {
+        color: #aaa;
+    }
+}

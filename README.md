@@ -29,4 +29,9 @@ Install [Stylus](https://add0n.com/stylus.html) for either [Firefox](https://add
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/mailgun-dark.user.css) with automatic updates.*<br>
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/mailgun-dark.css) for manual customization.<br>
 
+### [Hyperpolyglot Simple Dark]
+No screenshot, just on dark color instead of white.
+[Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/hyperpolyglot-simple-dark.user.css) with automatic updates.*<br>
+[Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/hyperpolyglot-simple-dark.css) for manual customization.<br>
+
 *Automatic updates from stylus plugin, other loaders may vary.
