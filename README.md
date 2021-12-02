@@ -34,4 +34,9 @@ No screenshot, just on dark color instead of white.
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/hyperpolyglot-simple-dark.user.css) with automatic updates.*<br>
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/hyperpolyglot-simple-dark.css) for manual customization.<br>
 
+### [Torn City Stealth Meter Tweak]
+Makes the stealth meter when attacking in torn city more visible.<br>
+[Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/torn-city-stealth-meter-tweak.user.css) with automatic updates.*<br>
+[Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/torn-city-stealth-meter-tweak.css) for manual customization.<br>
+
 *Automatic updates from stylus plugin, other loaders may vary.

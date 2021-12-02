@@ -1,0 +1,20 @@
+/* ==UserStyle==
+@name        Torn Stealth Meter Tweak
+@namespace   XDelta
+@description Makes the stealth meter when attacking in torn city more visible. {XDeltaA77 [1892226]}
+@version     1.0.0
+@homepageURL https://github.com/XDelta/StylusUserCSS
+@license     CC-BY-SA-4.0
+@author      XDelta
+==/UserStyle== */
+
+@-moz-document domain("torn.com") {
+    .stealthBarWrap___Rwi4j {
+        background-color: rgb(180, 180, 180);
+        width: 4px;
+    }
+    .level___au3z3 {
+        background-color: rgb(180, 130, 180);
+        width: 4px;
+    }
+}
