@@ -39,4 +39,9 @@ Makes the stealth meter when attacking in torn city more visible.<br>
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/torn-city-stealth-meter-tweak.user.css) with automatic updates.*<br>
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/torn-city-stealth-meter-tweak.css) for manual customization.<br>
 
+### [BombManual Dark]
+Simple dark theme for [Bombmanual.com](bombmanual.com), removes background images.<br>
+[Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/bombmanual-dark.user.css) with automatic updates.*<br>
+
+
 *Automatic updates from stylus plugin, other loaders may vary.

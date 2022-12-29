@@ -1,0 +1,18 @@
+/* ==UserStyle==
+@name        BombManual Dark
+@namespace   XDelta
+@version     0.1.0
+@homepageURL https://github.com/XDelta/StylusUserCSS
+@updateURL   https://raw.githubusercontent.com/XDelta/StylusUserCSS/master/bombmanual-dark.user.css
+@license     GPLv3
+@author      XDelta
+==/UserStyle== */
+
+@-moz-document domain("bombmanual.com") {
+    html, body {
+        background: #000;
+    }
+    .page-bg-01, .page-bg-02, .page-bg-03, .page-bg-04, .page-bg-05, .page-bg-06, .page-bg-07 {
+        background: #888;
+    }
+}
