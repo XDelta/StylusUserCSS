@@ -44,7 +44,7 @@ Makes the stealth meter when attacking in [torn city](https://www.torn.com/18922
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/torn-city-stealth-meter-tweak.css) for manual customization.<br>
 
 ### [BombManual Dark]
-Simple dark theme for [Bombmanual.com](bombmanual.com), removes background images.<br>
+Simple dark theme for [Bombmanual.com](https://bombmanual.com), removes background images.<br>
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/bombmanual-dark.user.css) with automatic updates.*<br>
 
 
