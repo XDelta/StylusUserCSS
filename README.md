@@ -35,6 +35,7 @@ Dark green theme for the [Mailgun](https://www.mailgun.com/) Dashboard<br>
 
 ### [Hyperpolyglot Simple Dark]
 Simple dark theme for [hyperpolyglot](https://hyperpolyglot.org/)<br>
+![](./screenshots/Hyperpolyglot_dark.png)
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/hyperpolyglot-simple-dark.user.css) with automatic updates.*<br>
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/hyperpolyglot-simple-dark.css) for manual customization.<br>
 
@@ -45,6 +46,7 @@ Makes the stealth meter when attacking in [torn city](https://www.torn.com/18922
 
 ### [BombManual Dark]
 Simple dark theme for [Bombmanual.com](https://bombmanual.com), removes background images.<br>
+![](./screenshots/Bombmanual_dark.png)
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/bombmanual-dark.user.css) with automatic updates.*<br>
 
 
