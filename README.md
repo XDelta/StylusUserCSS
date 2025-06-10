@@ -27,12 +27,6 @@ Simple dark theme for [Thingiverse](https://www.thingiverse.com/).<br>
 [Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/thingiverse-dark.user.css) with automatic updates.*<br>
 [Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/thingiverse-dark.css) for manual customization.<br>
 
-### [Mailgun Dark]
-Dark green theme for the [Mailgun](https://www.mailgun.com/) Dashboard<br>
-![](./screenshots/MailGun_Dark_Green.png)
-[Install the usercss](https://github.com/XDelta/StylusUserCSS/raw/master/mailgun-dark.user.css) with automatic updates.*<br>
-[Install manually from GitHub](https://github.com/XDelta/StylusUserCSS/raw/master/mailgun-dark.css) for manual customization.<br>
-
 ### [Hyperpolyglot Simple Dark]
 Simple dark theme for [hyperpolyglot](https://hyperpolyglot.org/)<br>
 ![](./screenshots/Hyperpolyglot_dark.png)
